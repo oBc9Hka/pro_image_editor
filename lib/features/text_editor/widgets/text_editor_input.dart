@@ -190,6 +190,7 @@ class _TextEditorInputState extends State<TextEditorInput> {
             decoration: TextDecoration.none,
             shadows: [],
           ),
+          keyboardAppearance: Theme.brightnessOf(context),
 
           /// If we edit an layer we focus to the textfield after the
           /// hero animation is done
